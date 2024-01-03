@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from 'react-scroll';
 import { FaBars, FaTimes, FaLinkedin, FaGithub, } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsPersonFill } from 'react-icons/bs'
@@ -14,11 +14,37 @@ const Navbar = () => {
          </div>
         {/*menu*/}
                 <ul className="hidden md:flex ">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li><Link
+                         to="hero"
+                         smooth={true}
+                         duration={500}
+                             >
+                         Home    </Link>
+                     </li>
+                    <li><Link
+                         to="about"
+                         smooth={true}
+                         duration={500}
+                             >
+                         About    </Link></li>
+                    <li><Link
+                         to="skills"
+                         smooth={true}
+                         duration={500}
+                             >
+                         Skills</Link></li>
+                    <li><Link
+                         to="project"
+                         smooth={true}
+                         duration={500}
+                             >
+                         Projects </Link></li>
+                    <li><Link
+                         to="contact"
+                         smooth={true}
+                         duration={500}
+                             >
+                         Contact </Link></li>
                  </ul>
         {/*hamburger*/}
             <div onClick={handleClick} className="md:hidden z-10">
