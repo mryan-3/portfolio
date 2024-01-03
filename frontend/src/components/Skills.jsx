@@ -9,7 +9,7 @@ import Golang from '../assets/go.svg'
 
 const Skills = () => {
     return (
-        <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+        <div name="skills" className="w-full md:h-screen bg-[#0a192f] text-gray-300">
             <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pl-4">
                     <p className="text-4xl inline font-bold border-b-4 border-pink-600">Skills.</p>
