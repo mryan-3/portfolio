@@ -1,5 +1,6 @@
 import { useRef, useState } from "react"
 import Navbar from '../src/components/Navbar.tsx'
+import About from '../src/components/About.tsx'
 
 function App() {
     const divRef = useRef<HTMLDivElement>(null);
@@ -54,6 +55,7 @@ function App() {
                 />
                 <div className='absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]'>
                 <Navbar />
+                <About />
                 </div>
             </div>
         </div>
