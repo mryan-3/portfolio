@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import Navbar from '../src/components/Navbar.tsx'
 import About from '../src/components/About.tsx'
 import Projects from '../src/components/Projects.tsx'
+import Blog from '../src/components/Blog.tsx'
 
 function App() {
     const divRef = useRef<HTMLDivElement>(null)
@@ -64,6 +65,7 @@ function App() {
                 <Navbar />
                 <About />
                 <Projects />
+                <Blog />
             </div>
 
         </>
