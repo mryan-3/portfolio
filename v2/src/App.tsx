@@ -52,7 +52,7 @@ function App() {
                 onBlur={handleBlur}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-gradient-to-r px-8 py-2 shadow-2xl"
+                className="relative w-full overflow-hidden rounded-xl border border-slate-800 bg-gradient-to-r px-2 py-2 shadow-2xl"
             >
                 <div
                     className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
