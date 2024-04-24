@@ -4,7 +4,7 @@ const Blog: React.FC = () => {
     return (
         <div className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'>
             <div className='flex items-center'>
-                <h2 className='text-[25px] font-bold'>Blogs</h2>
+                <h2 className='text-[25px] font-bold'>Blog</h2>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
                     viewBox='0 0 24 24'
