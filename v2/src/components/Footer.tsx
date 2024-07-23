@@ -15,52 +15,6 @@ const Footer: React.FC = () => {
                         fill='none'
                     >
                         <path
-                            d='M3 21L10.5484 13.4516M21 3L13.4516 10.5484M13.4516 10.5484L8 3H3L10.5484 13.4516M13.4516 10.5484L21 21H16L10.5484 13.4516'
-                            stroke='currentColor'
-                            stroke-width='1.5'
-                            stroke-linecap='round'
-                            stroke-linejoin='round'
-                        />
-                    </svg>
-                    <div className='flex gap-4 text-[14px] font-light'>
-                        <p className=''>Twitter</p>
-                        <a className='flex gap-1' href='https://twitter.com/paradigmshi' target='_blank' rel='noopener'>
-                            @paradigmshi
-                            <svg
-                                xmlns='http://www.w3.org/2000/svg'
-                                viewBox='0 0 24 24'
-                                width='16'
-                                height='16'
-                                color='#ffffff'
-                                fill='none'
-                            >
-                                <path
-                                    d='M17 7L6 18'
-                                    stroke='currentColor'
-                                    stroke-width='1.5'
-                                    stroke-linecap='round'
-                                />
-                                <path
-                                    d='M11 6.13151C11 6.13151 16.6335 5.65662 17.4885 6.51153C18.3434 7.36645 17.8684 13 17.8684 13'
-                                    stroke='currentColor'
-                                    stroke-width='1.5'
-                                    stroke-linecap='round'
-                                    stroke-linejoin='round'
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div className='flex gap-2'>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        viewBox='0 0 24 24'
-                        width='20'
-                        height='20'
-                        color='#ffffff'
-                        fill='none'
-                    >
-                        <path
                             d='M2 6L8.91302 9.91697C11.4616 11.361 12.5384 11.361 15.087 9.91697L22 6'
                             stroke='currentColor'
                             stroke-width='1.5'
