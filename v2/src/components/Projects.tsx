@@ -22,7 +22,11 @@ const Projects: React.FC = () => {
         </div>
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
-            <a>DuckBuck</a>
+            <a
+              href='https://y5yya-zqaaa-aaaam-acsea-cai.icp0.io/'
+              target='_blank'
+              rel='noopener'
+            >DuckBuck</a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
             A memethon hackathon project built on the Internet Computer and
