@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog: React.FC = () => {
   return (
-    <div className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'>
+    <div id='blog' className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'>
       <div className='flex items-center'>
         <h2 className='text-[25px] font-bold'>Blog</h2>
         <svg

@@ -4,6 +4,7 @@ import About from '../src/components/About.tsx'
 import Projects from '../src/components/Projects.tsx'
 import Blog from '../src/components/Blog.tsx'
 import Footer from './components/Footer.tsx'
+import { Experience } from './components/Experience.tsx'
 
 function App() {
     const divRef = useRef<HTMLDivElement>(null)
@@ -65,6 +66,7 @@ function App() {
 
                 <Navbar />
                 <About />
+                <Experience />
                 <Projects />
                 <Blog />
                 <Footer />
