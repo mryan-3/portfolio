@@ -2,22 +2,26 @@ import React from 'react'
 
 const Projects: React.FC = () => {
   return (
-    <div id='projects' className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'>
+    <div
+      id='projects'
+      className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'
+    >
       <h2 className='text-4xl font-bold'>Projects</h2>
       <div className='grid grid-cols-2 md:grid-cols-3 my-2 gap-2 md:gap-6'>
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
             <a
-              href='https://engage-iq.vercel.app/'
+              href='http://lexisphere-rho.vercel.app/'
               target='_blank'
               rel='noopener'
             >
-              Engage Iq
+              LexiSphere
             </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
-            Landing page for EngageIq, a customer feedback analysis page. Made
-            using React.js, Typescript and Tailwind CSS.
+            A collaborative text editor made using Next.js, Typescript and
+            Tailwind CSS allowing real time collaborations on documents that can
+            be saved and shared.
           </p>
         </div>
         <div className='flex flex-col '>
@@ -26,7 +30,9 @@ const Projects: React.FC = () => {
               href='https://y5yya-zqaaa-aaaam-acsea-cai.icp0.io/'
               target='_blank'
               rel='noopener'
-            >DuckBuck</a>
+            >
+              DuckBuck
+            </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
             A memethon hackathon project built on the Internet Computer and
@@ -67,7 +73,7 @@ const Projects: React.FC = () => {
         </div>
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
-            <a href='' target='_blank' rel='noopener'>
+            <a href='https://medilink.vercel.app' target='_blank' rel='noopener'>
               MediLink
             </a>
           </h3>
