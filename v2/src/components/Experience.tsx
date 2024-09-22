@@ -67,9 +67,8 @@ export const Experience = () => {
               endpoints.
             </li>
             <li>
-              Collaborated with team members to design and develop innovative
-              solutions. Architected and maintained both relational (PostgreSQL,
-              MySQL) and non-relational (MongoDB) databases.
+              Worked closely with other engineers to learn and apply best
+              practices in software development
             </li>
           </ul>
         </div>
