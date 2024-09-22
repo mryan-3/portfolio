@@ -11,11 +11,11 @@ const Projects: React.FC = () => {
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
             <a
-              href='http://lexisphere-rho.vercel.app/'
+              href='http://qartugo.vercel.app/'
               target='_blank'
               rel='noopener'
             >
-              Quartugo
+              Qartugo
             </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
