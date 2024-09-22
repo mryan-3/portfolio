@@ -15,6 +15,21 @@ const Projects: React.FC = () => {
               target='_blank'
               rel='noopener'
             >
+              Quartugo
+            </a>
+          </h3>
+          <p className='font-normal text-[14px] sm:text-[16px]'>
+            A web based team and sports management platform. Currently under
+            development. Building using Next js, Typescript, Tailwind CSS, Node js and MongoDB.
+          </p>
+        </div>
+        <div className='flex flex-col '>
+          <h3 className='text-[20px] font-semibold py-2 underline'>
+            <a
+              href='http://lexisphere-rho.vercel.app/'
+              target='_blank'
+              rel='noopener'
+            >
               LexiSphere
             </a>
           </h3>
@@ -67,8 +82,8 @@ const Projects: React.FC = () => {
             </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
-            Hackathon Project made using Next.js, Typescript, Python
-            and Tailwind CSS. Won 2nd Place
+            Hackathon Project made using Next.js, Typescript, Python and
+            Tailwind CSS. Won 2nd Place
           </p>
         </div>
         <div className='flex flex-col '>
