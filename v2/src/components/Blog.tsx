@@ -86,7 +86,7 @@ const Blog: React.FC = () => {
         <div className='flex gap-6 my-4'>
           <div className=' place-content-start'>
             <div className='flex flex-col items-center   '>
-              <p className='text-[14px]'>July 10 2023</p>
+              <p className='text-[14px]'>July 10 2024</p>
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
@@ -112,7 +112,7 @@ const Blog: React.FC = () => {
         <div className='flex gap-6 my-4'>
           <div className=' place-content-start'>
             <div className='flex flex-col items-center   '>
-              <p className='text-[14px]'>July 15 2023</p>
+              <p className='text-[14px]'>July 15 2024</p>
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />

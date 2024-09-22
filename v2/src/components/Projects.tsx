@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
       className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'
     >
       <h2 className='text-4xl font-bold'>Projects</h2>
-      <div className='grid grid-cols-2 md:grid-cols-3 my-2 gap-2 md:gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-3 my-2 gap-2 md:gap-6'>
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
             <a
@@ -67,13 +67,17 @@ const Projects: React.FC = () => {
             </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
-            Hackathon Project made using Next.js, Typescript, Node.js, Next.js
-            and Tailwind CSS.
+            Hackathon Project made using Next.js, Typescript, Python
+            and Tailwind CSS. Won 2nd Place
           </p>
         </div>
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
-            <a href='https://medilink.vercel.app' target='_blank' rel='noopener'>
+            <a
+              href='https://medilink.vercel.app'
+              target='_blank'
+              rel='noopener'
+            >
               MediLink
             </a>
           </h3>
@@ -86,8 +90,25 @@ const Projects: React.FC = () => {
           <h3 className='text-[20px] font-semibold py-2 underline'>Elect</h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
             A hackathon project for the national reasearch fund where we built
-            an electronic voting system for voters using Nextjs, Tailwind, Nest,
-            Internet Computer and Motoko.
+            an electronic voting system for voters using Nextjs, Tailwind,
+            Python, Internet Computer and Motoko.
+          </p>
+        </div>
+
+        <div className='flex flex-col '>
+          <h3 className='text-[20px] font-semibold py-2 underline'>
+            <a
+              href='https://github.com/mryan-3/meeting-scheduler'
+              target='_blank'
+              rel='noopener'
+            >
+              Meeting Scheduler
+            </a>
+          </h3>
+          <p className='font-normal text-[14px] sm:text-[16px]'>
+            A full stack project for a meeting scheduler that allows users to
+            create and schedule meetings on specific dates and times. Made using
+            Next js, Tailwind CSS, Zutand, Node.js and MySQL.
           </p>
         </div>
       </div>

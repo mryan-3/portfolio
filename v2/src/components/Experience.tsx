@@ -13,15 +13,16 @@ export const Experience = () => {
             <li>
               Engineered dynamic and responsive web applications using React.js,
               Next.js, and Tailwind CSS for frontend and technologies like Node,
-              Express, Nest and Golang for the backend.
+              Express, Nestjs, Python and Golang for the backend. Implemented
+              Large Language Models (LLM) and Machine Learning models.
             </li>
             <li>
-              Architected and maintained both relational (PostgreSQL) and
+              Architected and maintained both relational (PostgreSQL, MySQL) and
               non-relational (MongoDB) databases.
             </li>
             <li>
-              Created API documentation to ensure clarity and ease of use for
-              other developers.
+              Created API documentation using OpenAPI Specification to ensure
+              clarity and ease of use for other developers.
             </li>
           </ul>
         </div>
@@ -52,9 +53,7 @@ export const Experience = () => {
       </div>
 
       <div className='flex flex-col gap-2 mt-4'>
-        <h4 className='font-semibold text-2xl'>
-          HNG Tech - Backend Developer
-        </h4>
+        <h4 className='font-semibold text-2xl'>HNG Tech - Backend Developer</h4>
         <p>July 2023 - March 2024</p>
         <p className='font-semibold text-xl'> Roles and Responsibilities: </p>
         <div className='px-4'>
@@ -68,8 +67,9 @@ export const Experience = () => {
               endpoints.
             </li>
             <li>
-              Created API documentation to ensure clarity and ease of use for
-              other developers.
+              Collaborated with team members to design and develop innovative
+              solutions. Architected and maintained both relational (PostgreSQL,
+              MySQL) and non-relational (MongoDB) databases.
             </li>
           </ul>
         </div>
