@@ -11,16 +11,30 @@ const Projects: React.FC = () => {
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
             <a
-              href='http://qartugo.vercel.app/'
+              href='https://www.jkuat.ac.ke/school/scit/?page_id=19173'
               target='_blank'
               rel='noopener'
             >
+              The Listening Ear
+            </a>
+          </h3>
+          <p className='font-normal text-[14px] sm:text-[16px]'>
+            A mobile application designed to assist individuals with hearing
+            impairments by detecting and notifying them of sounds in their
+            surroundings. The app classifies over 500 different sounds.Made
+            using React Native and TensorflowJS.{' '}
+          </p>
+        </div>
+        <div className='flex flex-col '>
+          <h3 className='text-[20px] font-semibold py-2 underline'>
+            <a href='http://qartugo.vercel.app/' target='_blank' rel='noopener'>
               Qartugo
             </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
             A web based team and sports management platform. Currently under
-            development. Building using Next js, Typescript, Tailwind CSS, Node js and MongoDB.
+            development. Building using Next js, Typescript, Tailwind CSS, Node
+            js and MongoDB.
           </p>
         </div>
         <div className='flex flex-col '>
