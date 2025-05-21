@@ -2,7 +2,10 @@ import React from 'react'
 
 const Blog: React.FC = () => {
   return (
-    <div id='blog' className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'>
+    <div
+      id='blog'
+      className='font-titillium h-full text-white max-w-xl mx-auto p-4 mb-4'
+    >
       <div className='flex items-center'>
         <h2 className='text-[25px] font-bold'>Blog</h2>
         <svg
@@ -32,7 +35,84 @@ const Blog: React.FC = () => {
         <div className='flex gap-6 my-4'>
           <div className=' place-content-start'>
             <div className='flex flex-col items-center   '>
-              <p className='text-[14px]'>Dec 20 2023</p>
+              <p className='text-[14px]'>18 Mar 2025</p>
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='sm:hidden border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='sm:hidden border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[50%] md:w-[70%]'>
+            <span className='text-[14px]'>Wrote an article</span>
+            <a
+              className='font-semibold text-[14px]'
+              href='https://ryanm.hashnode.dev/finally-understanding-authentication'
+              target='_blank'
+              rel='noopener'
+            >
+              Finally Understanding Authentication?!
+            </a>
+          </div>
+        </div>
+
+        <div className='flex gap-6 my-4'>
+          <div className=' place-content-start'>
+            <div className='flex flex-col items-center   '>
+              <p className='text-[14px]'>3 May 2025</p>
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='sm:hidden border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='sm:hidden border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[50%] md:w-[70%]'>
+            <span className='text-[14px]'>Wrote an article</span>
+            <a
+              className='font-semibold text-[14px]'
+              href='https://ryanm.hashnode.dev/the-entrepreneurial-journey-insights-from-breswster-barclays-webinar'
+              target='_blank'
+              rel='noopener'
+            >
+              The Entrepreneurial Journey: Insights from Breswster Barclay's
+              Webinar
+            </a>
+          </div>
+        </div>
+        <div className='flex gap-6 my-4'>
+          <div className=' place-content-start'>
+            <div className='flex flex-col items-center   '>
+              <p className='text-[14px]'>30 Jan 2025</p>
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='sm:hidden border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+              <div className='sm:hidden border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[50%] md:w-[70%]'>
+            <span className='text-[14px]'>Wrote an article</span>
+            <a
+              className='font-semibold text-[14px]'
+              href='https://ryanm.hashnode.dev/fixing-uploadthings-invalid-signing-secret-error-in-production'
+              target='_blank'
+              rel='noopener'
+            >
+              Fixing UploadThing's 'Invalid Signing Secret' Error in Production
+            </a>
+          </div>
+        </div>
+        <div className='flex gap-6 my-4'>
+          <div className=' place-content-start'>
+            <div className='flex flex-col items-center   '>
+              <p className='text-[14px]'>Dec 20 2024</p>
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
@@ -59,7 +139,7 @@ const Blog: React.FC = () => {
         <div className='flex gap-6 my-4'>
           <div className=' place-content-start'>
             <div className='flex flex-col items-center   '>
-              <p className='text-[14px]'>Nov 01 2023</p>
+              <p className='text-[14px]'>Nov 01 2024</p>
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />
               <div className='border-[#93c5fd] border-dashed border text-[#e2e8f0] leading-3 basis-0 text-[14px] mt-2' />

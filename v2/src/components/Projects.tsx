@@ -75,13 +75,12 @@ const Projects: React.FC = () => {
               target='_blank'
               rel='noopener'
             >
-              Rently Buzz
+              Hello Tractor
             </a>
           </h3>
           <p className='font-normal text-[14px] sm:text-[16px]'>
-            Backend for a property management software. Made using Nest.js and
-            Postgres. Implemented authentication, property creation, tenant
-            management and property management.
+            E-Commerce site for selling second-hand tractors made using React,
+            Next.js, Typescript, Node.js, Tailwind CSS and MongoDB.
           </p>
         </div>
         <div className='flex flex-col '>
@@ -103,7 +102,7 @@ const Projects: React.FC = () => {
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
             <a
-              href='https://medilink.vercel.app'
+              href='https://medilink.jhubafrica.com/'
               target='_blank'
               rel='noopener'
             >
