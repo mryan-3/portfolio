@@ -11,6 +11,24 @@ const Projects: React.FC = () => {
         <div className='flex flex-col '>
           <h3 className='text-[20px] font-semibold py-2 underline'>
             <a
+              href='https://www.linkedin.com/posts/ryan-malawa_so-proud-to-announce-that-abel-misiocha-activity-7333707125119938560-E2gQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADtWehkBKbu3YUUnx3PGEQ_4BnvxUXAaSPw'
+              target='_blank'
+              rel='noopener'
+            >
+              AI Water Treatment Triaging
+            </a>
+          </h3>
+          <p className='font-normal text-[14px] sm:text-[16px]'>
+            Ongoing project for Davis and Shirtliff to a develop an AI-powered
+            platform that automates the process of analyzing water treatment lab
+            reports, designing appropriate RO systems, and generating proposals
+            for clients. Won the Season 4 D&S Hackathon.
+          </p>
+        </div>
+
+        <div className='flex flex-col '>
+          <h3 className='text-[20px] font-semibold py-2 underline'>
+            <a
               href='https://www.jkuat.ac.ke/school/scit/?page_id=19173'
               target='_blank'
               rel='noopener'
@@ -35,22 +53,6 @@ const Projects: React.FC = () => {
             A web based team and sports management platform. Currently under
             development. Building using Next js, Typescript, Tailwind CSS, Node
             js and MongoDB.
-          </p>
-        </div>
-        <div className='flex flex-col '>
-          <h3 className='text-[20px] font-semibold py-2 underline'>
-            <a
-              href='http://lexisphere-rho.vercel.app/'
-              target='_blank'
-              rel='noopener'
-            >
-              LexiSphere
-            </a>
-          </h3>
-          <p className='font-normal text-[14px] sm:text-[16px]'>
-            A collaborative text editor made using Next.js, Typescript and
-            Tailwind CSS allowing real time collaborations on documents that can
-            be saved and shared.
           </p>
         </div>
         <div className='flex flex-col '>
