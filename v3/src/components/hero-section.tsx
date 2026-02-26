@@ -8,12 +8,6 @@ export function HeroSection() {
                 Hi, I'm <span className="font-bold">Ryan</span>
             </h1>
             <div className="flex items-center gap-2 text-xs sm:text-sm text-neutral-400 mb-6 font-mono">
-                {portfolioData.roles.map((role, index) => (
-                    <span key={role} className="flex items-center gap-2">
-                        {role}
-                        {index < portfolioData.roles.length - 1 && <span>•</span>}
-                    </span>
-                ))}
             </div>
 
             <div className="space-y-4 text-neutral-300 text-sm leading-relaxed mb-8">
