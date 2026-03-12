@@ -16,7 +16,7 @@ export const portfolioData = {
     experience: [
         {
             company: "NCBA Group",
-            role: "System Application Developer (Intern)",
+            role: "System Application Developer",
             period: "Jul 2025 - Dec 2025",
             description: [
                 "Utilized Java and Spring Boot to develop and maintain backend services.",
@@ -46,7 +46,7 @@ export const portfolioData = {
         },
         {
             company: "HNG Tech",
-            role: "Backend Developer",
+            role: "Backend Developer(Intern)",
             period: "July 2023 - March 2024",
             description: [
                 "Developed RESTful APIs to support front-end applications and ensure seamless data communication.",
@@ -57,9 +57,19 @@ export const portfolioData = {
     ],
     projects: [
         {
+            title: "Cloneforce",
+            link: "https://cloneforce-vert.vercel.app/",
+            description: "An AI-driven platform for creating 'digital twins' of top-performing employees by mapping their behavioral frameworks, decision-making, and communication styles. Built using Next.js and Tailwind CSS"
+        },
+        {
+            title: "scroll0",
+            link: "https://mryan-3.github.io/scroll0/",
+            description: "A productivity-focused Chrome extension that combats doomscrolling using friction-based verbal confessions. Built with Vanilla JavaScript, Web Speech API, and Manifest V3."
+        },
+        {
             title: "AI Water Treatment Triaging",
             link: "https://www.linkedin.com/posts/ryan-malawa_so-proud-to-announce-that-abel-misiocha-activity-7333707125119938560-E2gQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADtWehkBKbu3YUUnx3PGEQ_4BnvxUXAaSPw",
-            description: "Ongoing project for Davis and Shirtliff to a develop an AI-powered platform that automates the process of analyzing water treatment lab reports, designing appropriate RO systems, and generating proposals for clients. Won the Season 4 D&S Hackathon."
+            description: "Project for Davis and Shirtliff to develop an AI-powered platform that automates the process of analyzing water treatment lab reports, designing appropriate RO systems, and generating proposals for clients. Won the Season 4 D&S Hackathon."
         },
         {
             title: "The Listening Ear",
@@ -95,11 +105,6 @@ export const portfolioData = {
             title: "Elect",
             link: "#",
             description: "A hackathon project for the national research fund where we built an electronic voting system for voters using Nextjs, Tailwind, Python, Internet Computer and Motoko."
-        },
-        {
-            title: "Meeting Scheduler",
-            link: "https://github.com/mryan-3/meeting-scheduler",
-            description: "A full stack project for a meeting scheduler that allows users to create and schedule meetings on specific dates and times. Made using Next js, Tailwind CSS, Zutand, Node.js and MySQL."
         }
     ],
     blogs: [
