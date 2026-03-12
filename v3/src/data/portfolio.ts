@@ -59,7 +59,7 @@ export const portfolioData = {
         {
             title: "Cloneforce",
             link: "https://cloneforce-vert.vercel.app/",
-            description: "An AI-driven platform for creating 'digital twins' of top-performing employees by mapping their behavioral frameworks, decision-making, and communication styles. Built using Next.js and Tailwind CSS"
+            description: "An AI-driven platform for creating 'digital twins' of employees by mapping their behavioral frameworks and decision-making styles. Built with Next.js and Tailwind CSS."
         },
         {
             title: "scroll0",
@@ -69,12 +69,17 @@ export const portfolioData = {
         {
             title: "AI Water Treatment Triaging",
             link: "https://www.linkedin.com/posts/ryan-malawa_so-proud-to-announce-that-abel-misiocha-activity-7333707125119938560-E2gQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADtWehkBKbu3YUUnx3PGEQ_4BnvxUXAaSPw",
-            description: "Project for Davis and Shirtliff to develop an AI-powered platform that automates the process of analyzing water treatment lab reports, designing appropriate RO systems, and generating proposals for clients. Won the Season 4 D&S Hackathon."
+            description: "AI-powered platform automating water treatment report analysis and system design for clients. Won the Season 4 Davis and Shirtliff Hackathon."
         },
         {
             title: "The Listening Ear",
             link: "https://www.jkuat.ac.ke/school/scit/?page_id=19173",
-            description: "A mobile application designed to assist individuals with hearing impairments by detecting and notifying them of sounds in their surroundings. The app classifies over 500 different sounds.Made using React Native and TensorflowJS."
+            description: "Mobile application assisting hearing-impaired individuals by detecting and classifying over 500 environmental sounds. Made using React Native and TensorFlowJS."
+        },
+        {
+            title: "Cast My Life",
+            link: "https://castmylife.vercel.app/",
+            description: "An AI-powered platform where users describe real-life scenarios, which are then transformed into movie scripts and casting briefs. Built with Next.js, Mistral, and HuggingFace."
         },
         {
             title: "Qartugo",
@@ -85,11 +90,6 @@ export const portfolioData = {
             title: "DuckBuck",
             link: "https://y5yya-zqaaa-aaaam-acsea-cai.icp0.io/",
             description: "A memethon hackathon project built on the Internet Computer and using React, Tailwind CSS and Typescript."
-        },
-        {
-            title: "Hello Tractor",
-            link: "https://rentlybuzz.kejani.co.ke/",
-            description: "E-Commerce site for selling second-hand tractors made using React, Next.js, Typescript, Node.js, Tailwind CSS and MongoDB."
         },
         {
             title: "AgriSolve:Leaf",
