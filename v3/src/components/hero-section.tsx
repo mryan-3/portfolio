@@ -18,7 +18,7 @@ export function HeroSection() {
 
             <div className="border border-dashed border-neutral-700 p-4 bg-neutral-900/30">
                 <p className="text-sm text-neutral-400 mb-3">
-                    Available for freelance or full-time roles. Slide into my DMs or Email me.
+                    Available for freelance or full-time roles. Contact me via the links below.
                 </p>
                 <SocialLinks />
             </div>

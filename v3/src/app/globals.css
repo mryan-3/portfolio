@@ -18,11 +18,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (pointer: fine) {
-  * {
-    cursor: none !important;
-  }
-}
 
 ::selection {
   background: #334155;

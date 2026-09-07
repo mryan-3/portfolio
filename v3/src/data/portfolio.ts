@@ -1,10 +1,9 @@
 export const portfolioData = {
     name: "ryanm",
-    roles: ["frontend", "backend", "devops"],
+    roles: ["backend", "full-stack", "devops"],
     bio: [
         "Software Engineer passionate about solving problems and crafting systems.",
-
-        "Currently diving deep into DevOps, Kubernetes, and Computer Vision."
+        "Currently diving deep into DevOps, Kubernetes, and distributed systems."
     ],
     contact: {
         email: "malawaryan@gmail.com",
@@ -15,47 +14,72 @@ export const portfolioData = {
     },
     experience: [
         {
+            company: "HNG Tech",
+            role: "Software Engineer",
+            period: "Feb 2026 - May 2026",
+            description: [
+                "Engineered a zero-knowledge encrypted messaging platform implementing RSA-OAEP/AES-GCM client-side encryption for secure communication.",
+                "Built secure backend systems integrating OAuth 2.0, RBAC, API versioning, and rate limiting.",
+                "Developed an AI-powered Chrome Extension for content summarization."
+            ]
+        },
+        {
             company: "NCBA Group",
             role: "System Application Developer",
             period: "Jul 2025 - Dec 2025",
             description: [
-                "Utilized Java and Spring Boot to develop and maintain backend services.",
-                "Gained hands-on DevOps experience working with Kubernetes.",
-                "Engineered a unified template API to streamline and simplify integrations between multiple insurance companies and NCBA."
+                "Developed CoreXchange, a dynamic, provider-agnostic integration platform that serves as a single middleware gateway for connecting core banking infrastructure with external mobile money and financial networks.",
+                "Eliminated vendor-specific code bottlenecks by designing a scalable, plug-and-play architecture that utilizes pipe-delimited data mapping and unified TCP socket communication, allowing the bank to seamlessly onboard any external provider without rebuilding integration.",
+                "Developed middleware services that improved reliability of communication between financial systems."
             ]
         },
         {
             company: "Zenetra Labs",
             role: "Software Engineer",
-            period: "Nov 2023 - Present",
+            period: "Nov 2023 - Jun 2025",
             description: [
-                "Engineered dynamic and responsive web applications using React.js, Next.js, and Tailwind CSS for frontend and technologies like Node, Express, Nestjs, Python and Golang for the backend. Implemented Large Language Models (LLM) and Machine Learning models.",
-                "Architected and maintained both relational (PostgreSQL, MySQL) and non-relational (MongoDB) databases.",
-                "Created API documentation using OpenAPI Specification to ensure clarity and ease of use for other developers."
+                "Architected and deployed backend services, improving platform reliability and enabling scalable application development.",
+                "Engineered RESTful APIs and service integrations, reducing developer integration time by improving API structure and OpenAPI documentation.",
+                "Built AI-enabled backend workflows integrating LLM-powered features and machine learning services into production applications."
             ]
         },
         {
             company: "JHUB Africa",
-            role: "Software Engineer(Apprentice)",
-            period: "May 2024 - August 2024",
+            role: "Software Engineer Intern",
+            period: "Apr 2024 - Aug 2024",
             description: [
-                "Collaborated with team members to design and develop innovative solutions.",
-                "Developed RESTful APIs to facilitate efficient data exchange between front-end and back-end systems.",
-                "Created API documentation to ensure clarity and ease of use for other developers."
+                "Automated CI/CD deployment workflows, improving release consistency across development environments.",
+                "Implemented backend improvements and production fixes through debugging, testing, and system analysis.",
+                "Investigated performance bottlenecks and delivered reliability improvements across distributed applications."
             ]
         },
         {
             company: "HNG Tech",
-            role: "Backend Developer(Intern)",
-            period: "July 2023 - March 2024",
+            role: "Backend Developer (Intern)",
+            period: "Jul 2023 - Mar 2024",
             description: [
                 "Developed RESTful APIs to support front-end applications and ensure seamless data communication.",
                 "Implemented authentication and authorization mechanisms to secure endpoints.",
-                "Worked closely with other engineers to learn and apply best practices in software development"
+                "Worked closely with other engineers to learn and apply best practices in software development."
             ]
         }
     ],
     projects: [
+        {
+            title: "RelayCore",
+            link: "https://github.com/mryan-3/relaycore",
+            description: "A webhook ingestion service and event processing engine built in Java/Spring Boot handling at-least-once delivery, idempotency, and full auditability for high-volume webhook traffic. Containerized the full stack with Docker Compose and exposed a Prometheus metrics endpoint."
+        },
+        {
+            title: "AI Water Treatment Triaging",
+            link: "https://www.linkedin.com/posts/ryan-malawa_so-proud-to-announce-that-abel-misiocha-activity-7333707125119938560-E2gQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADtWehkBKbu3YUUnx3PGEQ_4BnvxUXAaSPw",
+            description: "AI platform for Davis & Shirtliff automating water treatment lab report analysis and system design proposal generation, awarded 1st Place at the Season 4 D&S Hackathon. Streamlined the transition from laboratory analysis reports to engineering proposal drafts for faster review cycles."
+        },
+        {
+            title: "The Listening Ear",
+            link: "https://www.jkuat.ac.ke/school/scit/?page_id=19173",
+            description: "A mobile accessibility application using real-time sound classification supporting recognition of 500+ environmental sounds. Won 1st place at InterUniversity Hackathon 2024. Built with React Native and TensorFlowJS."
+        },
         {
             title: "Cloneforce",
             link: "https://cloneforce-vert.vercel.app/",
@@ -65,16 +89,6 @@ export const portfolioData = {
             title: "scroll0",
             link: "https://mryan-3.github.io/scroll0/",
             description: "A productivity-focused Chrome extension that combats doomscrolling using friction-based verbal confessions. Built with Vanilla JavaScript, Web Speech API, and Manifest V3."
-        },
-        {
-            title: "AI Water Treatment Triaging",
-            link: "https://www.linkedin.com/posts/ryan-malawa_so-proud-to-announce-that-abel-misiocha-activity-7333707125119938560-E2gQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADtWehkBKbu3YUUnx3PGEQ_4BnvxUXAaSPw",
-            description: "AI-powered platform automating water treatment report analysis and system design for clients. Won the Season 4 Davis and Shirtliff Hackathon."
-        },
-        {
-            title: "The Listening Ear",
-            link: "https://www.jkuat.ac.ke/school/scit/?page_id=19173",
-            description: "Mobile application assisting hearing-impaired individuals by detecting and classifying over 500 environmental sounds. Made using React Native and TensorFlowJS."
         },
         {
             title: "Cast My Life",
@@ -94,7 +108,7 @@ export const portfolioData = {
         {
             title: "AgriSolve:Leaf",
             link: "https://agri-solve.vercel.app/",
-            description: "Hackathon Project made using Next.js, Typescript, Python and Tailwind CSS. Won 2nd Place"
+            description: "Hackathon Project made using Next.js, Typescript, Python and Tailwind CSS. Won 2nd Place."
         },
         {
             title: "MediLink",
@@ -107,7 +121,48 @@ export const portfolioData = {
             description: "A hackathon project for the national research fund where we built an electronic voting system for voters using Nextjs, Tailwind, Python, Internet Computer and Motoko."
         }
     ],
+    education: [
+        {
+            institution: "Jomo Kenyatta University of Agriculture and Technology",
+            degree: "Bsc. Computer Technology",
+            period: "2022 - 2026",
+            status: "Conferred: August 2026 (Awaiting official degree certificate)"
+        }
+    ],
+    skills: [
+        {
+            category: "Programming Languages",
+            items: ["Node.js", "Java", "TypeScript", "JavaScript"]
+        },
+        {
+            category: "Backend & Cloud Infrastructure",
+            items: ["RESTful Web Services", "Spring Boot", "NestJS", "RabbitMQ", "Docker", "Kubernetes", "Microservices"]
+        },
+        {
+            category: "Databases",
+            items: ["PostgreSQL", "SQL", "MSSQL Server", "MySQL", "MongoDB", "Data Modeling"]
+        },
+        {
+            category: "Frontend & Frameworks",
+            items: ["React", "Next.js", "Tailwind CSS", "React Native"]
+        }
+    ],
     blogs: [
+        {
+            date: "Sept 2026",
+            title: "Building ClipSeek: Exploring Local Semantic Video Search with CLIP, HLS, and Vector Databases",
+            link: "https://medium.com/@malawaryan/building-clipseek-exploring-local-semantic-video-search-with-clip-hls-and-vector-databases-8ea6af2b3aca"
+        },
+        {
+            date: "June 2026",
+            title: "I Built a Browser-Based AirDrop Alternative",
+            link: "https://medium.com/@malawaryan/i-built-a-browser-based-airdrop-alternative-3d4eff26c52c"
+        },
+        {
+            date: "May 2026",
+            title: "Webhooks: The “Don’t Call Us, We’ll Call You” of the Internet",
+            link: "https://medium.com/@malawaryan/webhooks-the-dont-call-us-we-ll-call-you-of-the-internet-886dece7aa87"
+        },
         {
             date: "18 Mar 2025",
             title: "Finally Understanding Authentication?!",
@@ -125,7 +180,7 @@ export const portfolioData = {
         },
         {
             date: "Dec 20 2024",
-            title: "Lightning Fast APIs: Building Golang CRUD Endpoints with Supabase⚡️",
+            title: "Lightning Fast APIs: Building Golang CRUD Endpoints with Supabase",
             link: "https://ryanm.hashnode.dev/lightning-fast-apis-building-golang-crud-endpoints-with-supabase"
         },
         {
